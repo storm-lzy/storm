@@ -1,7 +1,5 @@
 package linked_list;
 
-import java.lang.reflect.Proxy;
-
 public class NodeGroupReversal {
 
     public static void main(String[] args) {
