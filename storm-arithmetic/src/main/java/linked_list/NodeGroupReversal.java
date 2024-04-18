@@ -24,12 +24,13 @@ public class NodeGroupReversal {
         node9.next = node10;
 
         head = groupReversal(head, 3);
+
+
         while (head != null) {
             System.out.println(head.v);
             head = head.next;
         }
     }
-
 
     /**
      * 链表组内反转
@@ -49,11 +50,13 @@ public class NodeGroupReversal {
         head = end;
         reverse(start, end);
         lastStart = start;
+
         while ((start = start.next) != null && null != (end = getKGroupEnd(start, k))) {
             reverse(start, end);
             lastStart.next = end;
             lastStart = start;
         }
+
         return head;
     }
 

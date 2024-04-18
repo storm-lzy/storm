@@ -30,6 +30,7 @@ public class SumLinked {
         while (head1 != null) {
             System.out.println(head1.v);
             head1 = head1.next;
+
         }
     }
 
