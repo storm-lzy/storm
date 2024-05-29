@@ -16,7 +16,7 @@ public class NodeStack <T> {
     }
 
     public void push(T e) {
-        Node<T> node = new Node<>(e);
+        Node<T> node = new Node<T>(e);
         if (head == null) {
             head = node;
         } else {
@@ -38,7 +38,7 @@ public class NodeStack <T> {
     }
 
     public static void main(String[] args) {
-        NodeStack<Integer> nodeStack = new NodeStack<>();
+        NodeStack<Integer> nodeStack = new NodeStack<Integer>();
         for (int i = 1; i <= 10; i++) {
             nodeStack.push(i);
         }

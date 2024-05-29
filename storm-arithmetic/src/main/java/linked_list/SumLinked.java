@@ -5,16 +5,16 @@ import javax.swing.text.LabelView;
 public class SumLinked {
 
     public static void main(String[] args) {
-        Node<Integer> head1 = new Node<>(7);
+        Node<Integer> head1 = new Node<Integer>(7);
 
-        Node<Integer> node2 = new Node<>(3);
-        Node<Integer> node3 = new Node<>(6);
-        Node<Integer> node4 = new Node<>(9);
+        Node<Integer> node2 = new Node<Integer>(3);
+        Node<Integer> node3 = new Node<Integer>(6);
+        Node<Integer> node4 = new Node<Integer>(9);
 
 
-        Node<Integer> head2 = new Node<>(4);
-        Node<Integer> node6 = new Node<>(2);
-        Node<Integer> node7 = new Node<>(8);
+        Node<Integer> head2 = new Node<Integer>(4);
+        Node<Integer> node6 = new Node<Integer>(2);
+        Node<Integer> node7 = new Node<Integer>(8);
 
 
 
@@ -67,7 +67,7 @@ public class SumLinked {
         }
 
         if(carry > 0){
-            sCur.next = new Node<>(carry);
+            sCur.next = new Node<Integer>(carry);
         }
         return longNode;
 

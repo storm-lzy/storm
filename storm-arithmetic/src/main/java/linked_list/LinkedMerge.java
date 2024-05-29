@@ -3,18 +3,18 @@ package linked_list;
 public class LinkedMerge {
 
     public static void main(String[] args) {
-        Node<Integer> node1 = new Node<>(1);
-        Node<Integer> node2 = new Node<>(3);
-        Node<Integer> node3 = new Node<>(3);
-        Node<Integer> node4 = new Node<>(4);
-        Node<Integer> node5 = new Node<>(7);
+        Node<Integer> node1 = new Node<Integer>(1);
+        Node<Integer> node2 = new Node<Integer>(3);
+        Node<Integer> node3 = new Node<Integer>(3);
+        Node<Integer> node4 = new Node<Integer>(4);
+        Node<Integer> node5 = new Node<Integer>(7);
 
 
-        Node<Integer> node6 = new Node<>(2);
-        Node<Integer> node7 = new Node<>(3);
-        Node<Integer> node8 = new Node<>(4);
-        Node<Integer> node9 = new Node<>(5);
-        Node<Integer> node10 = new Node<>(8);
+        Node<Integer> node6 = new Node<Integer>(2);
+        Node<Integer> node7 = new Node<Integer>(3);
+        Node<Integer> node8 = new Node<Integer>(4);
+        Node<Integer> node9 = new Node<Integer>(5);
+        Node<Integer> node10 = new Node<Integer>(8);
 
 
 

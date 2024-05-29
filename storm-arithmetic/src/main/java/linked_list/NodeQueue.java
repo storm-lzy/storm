@@ -19,7 +19,7 @@ public class NodeQueue<T> {
     }
 
     public void offer(T e){
-        Node<T> node = new Node<>(e);
+        Node<T> node = new Node<T>(e);
         if(size == 0){
             head = node;
             tail = node;

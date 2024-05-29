@@ -14,7 +14,7 @@ public class DoubleNodeQueue<E> {
      * @param e
      */
     public void offer(E e) {
-        DoubleNode<E> doubleNode = new DoubleNode<>(e);
+        DoubleNode<E> doubleNode = new DoubleNode<E>(e);
         if (null == head) {
             head = doubleNode;
             tail = doubleNode;
@@ -52,7 +52,7 @@ public class DoubleNodeQueue<E> {
      * @param e
      */
     public void offerFirst(E e) {
-        DoubleNode<E> doubleNode = new DoubleNode<>(e);
+        DoubleNode<E> doubleNode = new DoubleNode<E>(e);
         if (head == null) {
             head = doubleNode;
             tail = doubleNode;
@@ -91,7 +91,7 @@ public class DoubleNodeQueue<E> {
     }
 
     public static void main(String[] args) {
-        DoubleNodeQueue<Integer> queue = new DoubleNodeQueue<>();
+        DoubleNodeQueue<Integer> queue = new DoubleNodeQueue<Integer>();
         queue.offer(1);
         queue.offer(2);
         queue.offerFirst(5);

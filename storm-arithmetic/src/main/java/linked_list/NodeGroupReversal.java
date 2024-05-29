@@ -3,16 +3,16 @@ package linked_list;
 public class NodeGroupReversal {
 
     public static void main(String[] args) {
-        Node<Integer> head = new Node<>(1);
-        Node<Integer> node2 = new Node<>(2);
-        Node<Integer> node3 = new Node<>(3);
-        Node<Integer> node4 = new Node<>(4);
-        Node<Integer> node5 = new Node<>(5);
-        Node<Integer> node6 = new Node<>(6);
-        Node<Integer> node7 = new Node<>(7);
-        Node<Integer> node8 = new Node<>(8);
-        Node<Integer> node9 = new Node<>(9);
-        Node<Integer> node10 = new Node<>(10);
+        Node<Integer> head = new Node<Integer>(1);
+        Node<Integer> node2 = new Node<Integer>(2);
+        Node<Integer> node3 = new Node<Integer>(3);
+        Node<Integer> node4 = new Node<Integer>(4);
+        Node<Integer> node5 = new Node<Integer>(5);
+        Node<Integer> node6 = new Node<Integer>(6);
+        Node<Integer> node7 = new Node<Integer>(7);
+        Node<Integer> node8 = new Node<Integer>(8);
+        Node<Integer> node9 = new Node<Integer>(9);
+        Node<Integer> node10 = new Node<Integer>(10);
         head.next = node2;
         node2.next = node3;
         node3.next = node4;
