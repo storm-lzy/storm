@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/Boot1/pom.xml" />
         <option value="$PROJECT_DIR$/Boot2/pom.xml" />
         <option value="$PROJECT_DIR$/lock/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-client/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

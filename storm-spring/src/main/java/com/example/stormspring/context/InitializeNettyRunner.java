@@ -18,7 +18,7 @@ import java.net.InetSocketAddress;
 /**
  *
  */
-@Component
+//@Component
 @Slf4j
 public class InitializeNettyRunner implements ApplicationRunner {
 

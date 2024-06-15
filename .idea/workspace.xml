@@ -5,172 +5,88 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="386ee20a-aae8-494c-befd-191f60e2e20d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5d745f5bf1f6a4e0816539ca7a3a303cf8bd161e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/d/5d745f5bf1f6a4e0816539ca7a3a303cf8bd161e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/a/8ac9274cd7e4a83dca7817280113eafed9cf4f93" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/5/e50890b7eaef876fa8898be9abb651c289264241" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot1/src/main/java/demo/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot1/src/main/java/demo/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/annotation/GlobalLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/annotation/LockKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/aspect/GlobalLockAspectHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/configuration/GlobalLockAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/enums/LockTimeoutStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/enums/LockType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/enums/ReleaseTimeoutStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/exceptions/GlobalLockInvocationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/exceptions/GlobalLockTimeoutException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/handler/LockTimeoutHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/handler/ReleaseTimeoutHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/lock/FairLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/lock/Lock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/lock/LockFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/lock/LockInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/lock/ReadLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/lock/ReentrantLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/lock/WriteLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/properties/GlobalLockProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/provider/LockInfoProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/provider/LockKeyProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/provider/LockProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/provider/impl/LockProviderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/wrocker/AcquiredLockWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/test/java/com/storm/lock/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/test/java/com/storm/lock/TestGlobalLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/test/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock/src/test/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/demo/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/observer/ObServerOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/observer/ObServerTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/observer/ObjectFor3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/annotation/DoubleCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/aspect/DoubleCacheAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/aspect/ElParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/cache/CacheConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/context/InitializeNettyRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/contorller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/entity/DemoEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/enums/CacheType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/handle/ChannelManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/handle/ServerChannelInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/handle/WsServerCommonHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/handle/WsServerHandshakeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/handle/WsServerHeartHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/handle/WsServerMessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/mapper/DemoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/params/HandshakeParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/service/IDemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/service/impl/DemoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-spring/src/test/java/com/example/stromspring/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-spring/src/test/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/lock/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lock/target/classes/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lock/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lock/target/test-classes/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/MessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/MqChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/MqClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/anno/ConsumerMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/anno/EnableRabbitMqAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/anno/MqSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/anno/RabbitMqConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/cache/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/codec/Codec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/codec/enums/CodecType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/codec/impl/JsonCodec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/concurrent/CallbackFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/concurrent/FutureCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/concurrent/NamedThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/concurrent/StateFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/concurrent/ThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/concurrent/UncaughtExceptionHandlerThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/config/AbstractClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/config/ClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/config/ConnectionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/config/ConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/config/PublisherConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/config/ThreadConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/configuration/AbstractMqClientAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/configuration/MqSubscriberAutoScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/configuration/MqSubscriberInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/configuration/rabbit/RabbitMqClientAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/enums/Ack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/enums/MessageStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/enums/MessageType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/exception/BrokerConfirmException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/exception/ConnectionClosedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/exception/MqException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/exception/NetException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/exception/SubscribeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/exception/TimeoutException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/exception/factory/ExceptionProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/exception/factory/ExceptionProviderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/message/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/message/MessageContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/message/MessageExtConfigKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/message/MessageProp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/rabbit/MessageConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/rabbit/RabbitMqChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/rabbit/RabbitMqClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/rabbit/SimpleMetricsCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/rabbit/config/MultiRabbitMqClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/rabbit/config/RabbitMqClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/store/MessageEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/store/MessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/utils/ClassUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/utils/HostInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/utils/JSONUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/utils/LockUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/utils/SubscribeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/utils/ThreadUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/rebbit/UserMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/rebbit/handler/UserMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storm-spring/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storm-spring/target/test-classes/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02454eecb1ca5ed33a682dfe76cc13e36f5cc1a3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/03b4b484e6e7b8f38c0528c628e337a86b17e4aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/10a03f31c4dce92cb371e761ce9429428bb6c176" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19a5d4d1800221a08f177361da49b2232f4519df" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a9fa7895e30573442f46e99bf25b46338830c41" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2da0e1f3f6df624be3a81f024f1b99b20345e96b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/33c721cd9e4936ce6e7071847978e976b21edaba" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d87a802cb2a8ee262136f10bd8ed2d762f23a34" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/44f9ab20a5903991e6e4b8c2fc55f204b97c3f2e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4ef7631fe0fb5a74c08131622103641b20b6bc5f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/56d29b05abc87e24e044dcdd5710fba75a9b6610" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/62b81aed89725c7fb0834d8d08c7fb4fe869442c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/63bb8191759de7c24d1af2d215072984951c28e2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/67e440afff05caeabbaab11b236e02d64b1c02e4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74e53ee47c9c01484c1873b5238a2f2f1ab18c8b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/77161c1df45eb29eb3c98b4c9dbcc0e90e154bff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/790f34998868187c32e51146b4101eaf14504cfb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/798d9706608d970457594d06d4dbacfb1c96ffc5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d496b78d008e54fe2a01af4694062b11134f27d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e87ba18d4f2e792cc4030e814fb40dddddcf1f8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7fe8ae9d466c838309aaa7cf7c80a997160c93c7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a520001324ec0ce0f93abc838cd9d79febf677bc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b8b486e0c3b04dbbeccfa9f26bfc6404f546950f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb81cee06b36d90855cae03156bb0d208948df43" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be02d3a737a449e5334a09bd75d1f8647022968a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c59025120596de72f4034a7616ddeb68f644bf2e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c9d6019a30ca915ab166dc6c410b6e3fec73afa3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e086f9b584b6e526c449fc56af17891464580ef6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e19fc17b51a08ef7adf338e9b9d34a70b4dd3858" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e22d1eb3bdac67f7da8aa734bb84d10aa2ccf3fe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee0a58a5aa43093cdcbfb946e1573437a9221918" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/2/02454eecb1ca5ed33a682dfe76cc13e36f5cc1a3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/3/03b4b484e6e7b8f38c0528c628e337a86b17e4aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/0/10a03f31c4dce92cb371e761ce9429428bb6c176" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/d/2da0e1f3f6df624be3a81f024f1b99b20345e96b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/3/33c721cd9e4936ce6e7071847978e976b21edaba" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/d/3d87a802cb2a8ee262136f10bd8ed2d762f23a34" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/e/4ef7631fe0fb5a74c08131622103641b20b6bc5f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/6/56d29b05abc87e24e044dcdd5710fba75a9b6610" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/2/62b81aed89725c7fb0834d8d08c7fb4fe869442c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/3/63bb8191759de7c24d1af2d215072984951c28e2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/7/67e440afff05caeabbaab11b236e02d64b1c02e4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/4/74e53ee47c9c01484c1873b5238a2f2f1ab18c8b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/9/790f34998868187c32e51146b4101eaf14504cfb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/9/798d9706608d970457594d06d4dbacfb1c96ffc5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/d/7d496b78d008e54fe2a01af4694062b11134f27d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/e/7e87ba18d4f2e792cc4030e814fb40dddddcf1f8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/f/7fe8ae9d466c838309aaa7cf7c80a997160c93c7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a520001324ec0ce0f93abc838cd9d79febf677bc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/8/b8b486e0c3b04dbbeccfa9f26bfc6404f546950f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/b/bb81cee06b36d90855cae03156bb0d208948df43" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/e/be02d3a737a449e5334a09bd75d1f8647022968a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/5/c59025120596de72f4034a7616ddeb68f644bf2e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/9/c9d6019a30ca915ab166dc6c410b6e3fec73afa3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/0/e086f9b584b6e526c449fc56af17891464580ef6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/1/e19fc17b51a08ef7adf338e9b9d34a70b4dd3858" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/2/e22d1eb3bdac67f7da8aa734bb84d10aa2ccf3fe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-v1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-v1/spring-v1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-v1/src/main/java/com/study/spring/beans/BeanDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-v1/src/main/java/com/study/spring/beans/BeanDefinitionRegistException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-v1/src/main/java/com/study/spring/beans/BeanDefinitionRegistry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-v1/src/main/java/com/study/spring/beans/BeanFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-v1/src/main/java/com/study/spring/beans/DefaultBeanFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-v1/src/main/java/com/study/spring/beans/GenericBeanDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-v1/src/main/java/com/study/spring/beans/PreBuildBeanFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-v1/src/main/java/com/study/spring/samples/ABean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-v1/src/main/java/com/study/spring/samples/ABeanFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-v1/src/main/java/com/study/spring/samples/Class1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-v1/src/main/java/com/study/spring/samples/Intef1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-v1/src/main/java/com/study/spring/samples/Interf2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-v1/src/main/java/com/study/spring/samples/Interf3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-v1/src/main/java/com/study/spring/samples/Interf4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-v1/src/main/java/com/study/spring/samples/Singleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-v1/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-v1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-v1/src/test/java/v1/DefaultBeanFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storm-arithmetic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/storm-arithmetic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/d/2da0e1f3f6df624be3a81f024f1b99b20345e96b" beforeDir="false" afterPath="$PROJECT_DIR$/lock/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/3/33c721cd9e4936ce6e7071847978e976b21edaba" beforeDir="false" afterPath="$PROJECT_DIR$/lock/target/test-classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Boot1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot1/src/main/java/demo/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot1/src/main/java/demo/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Boot2/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storm-arithmetic/src/main/java/demo/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/demo/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storm-arithmetic/src/main/java/linked_list/DoubleNodeQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/linked_list/DoubleNodeQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storm-arithmetic/src/main/java/linked_list/LinkedMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/linked_list/LinkedMerge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storm-arithmetic/src/main/java/linked_list/NodeGroupReversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/linked_list/NodeGroupReversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storm-arithmetic/src/main/java/linked_list/NodeQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/linked_list/NodeQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storm-arithmetic/src/main/java/linked_list/NodeStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/linked_list/NodeStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storm-arithmetic/src/main/java/linked_list/SumLinked.java" beforeDir="false" afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/linked_list/SumLinked.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storm-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/storm-spring/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/StormSpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/StormSpringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/context/InitializeNettyRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/context/InitializeNettyRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/contorller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/storm-spring/src/main/java/com/example/stormspring/contorller/DemoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storm-spring/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/storm-spring/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,8 +97,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="AnnotationType" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -211,7 +127,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:\World\work\plugin\store\maven\apache-maven-3.6.1" />
+        <option name="localRepository" value="D:\World\work\plugin\store\maven\dindo_repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../work/plugin/store/maven/apache-maven-3.6.1" />
         <option name="userSettingsFile" value="D:\World\work\plugin\store\maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -226,40 +143,45 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/World/study/code/storm/lock/src/test/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.25172412",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/World/study/code/storm/rabbit-client/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.25172412&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\World\study\code\storm\rabbit-client\src" />
       <recent name="D:\World\study\code\storm\lock\src\test\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\World\study\code\storm\storm-spring\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.storm.mq.codec.enums" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -269,35 +191,16 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestGlobalLock.test1">
-    <configuration name="Application.testCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="storm-spring" />
+  <component name="RunManager" selected="Spring Boot.StormSpringApplication">
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo1" />
+      <module name="storm-arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.stromspring.*" />
+          <option name="PATTERN" value="demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.stromspring" />
-      <option name="MAIN_CLASS_NAME" value="com.example.stromspring.Application" />
-      <option name="METHOD_NAME" value="testCache" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application.testCache2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="storm-spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.stromspring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.stromspring" />
-      <option name="MAIN_CLASS_NAME" value="com.example.stromspring.Application" />
-      <option name="METHOD_NAME" value="testCache2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -331,6 +234,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MqClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rabbit-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.storm.mq.MqClientApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.storm.mq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StormSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="storm-spring" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.stormspring.StormSpringApplication" />
@@ -346,11 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.StormSpringApplication" />
+        <item itemvalue="Spring Boot.MqClientApplication" />
+        <item itemvalue="Application.Demo1" />
         <item itemvalue="JUnit.TestGlobalLock.test1" />
         <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="Spring Boot.StormSpringApplication" />
-        <item itemvalue="JUnit.Application.testCache2" />
-        <item itemvalue="JUnit.Application.testCache" />
       </list>
     </recent_temporary>
   </component>
@@ -394,12 +310,68 @@
       <workItem from="1716945949893" duration="8555000" />
       <workItem from="1716954741290" duration="2832000" />
       <workItem from="1716966211900" duration="5463000" />
-      <workItem from="1716972448992" duration="1176000" />
+      <workItem from="1716972448992" duration="2879000" />
+      <workItem from="1717028307674" duration="1635000" />
+      <workItem from="1717493568343" duration="65000" />
+      <workItem from="1718273568810" duration="336000" />
+      <workItem from="1718273908980" duration="7668000" />
+      <workItem from="1718334692941" duration="127000" />
+      <workItem from="1718347206135" duration="15546000" />
+      <workItem from="1718373018059" duration="2477000" />
+      <workItem from="1718424092357" duration="13473000" />
+      <workItem from="1718438969617" duration="7928000" />
     </task>
+    <task id="LOCAL-00001" summary="分布式锁">
+      <option name="closed" value="true" />
+      <created>1716973776789</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716973776789</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="分布式锁" />
+    <option name="LAST_COMMIT_MESSAGE" value="分布式锁" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/rabbit/MessageConsumer.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/rabbit/RabbitMqChannel.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/concurrent/StateFuture.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/configuration/rabbit/RabbitMqClientAutoConfiguration.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.apache.commons.pool2.impl.DefaultPooledObject" memberName="state" />
+        <PinnedItemInfo parentTag="sun.reflect.annotation.AnnotationInvocationHandler" memberName="type" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
