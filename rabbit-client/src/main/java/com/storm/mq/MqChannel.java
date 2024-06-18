@@ -1,5 +1,6 @@
 package com.storm.mq;
 
+import com.rabbitmq.client.Channel;
 import com.storm.mq.concurrent.CallbackFuture;
 import com.storm.mq.config.ConsumerConfig;
 import com.storm.mq.enums.Ack;
@@ -18,5 +19,5 @@ public interface MqChannel {
 
     void ack(long var1, String var3, Ack ack);
 
-    Object unwrap();
+    Channel unwrap();
 }

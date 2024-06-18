@@ -19,7 +19,6 @@ public enum LockTimeoutStrategy implements LockTimeoutHandler {
      * 空
      */
     NONE() {
-        @Override
         public void handler(LockInfo lockInfo, Lock lock, JoinPoint joinPoint) {
 
         }
@@ -29,7 +28,6 @@ public enum LockTimeoutStrategy implements LockTimeoutHandler {
      * 快速失败
      */
     FAST_FAIL() {
-        @Override
         public void handler(LockInfo lockInfo, Lock lock, JoinPoint joinPoint) {
             throw new GlobalLockTimeoutException(String.format("获取锁[%s]超时 Timeout[%s]", lockInfo.getName(), lockInfo.getWaitTime()));
         }
@@ -50,7 +48,6 @@ public enum LockTimeoutStrategy implements LockTimeoutHandler {
          */
         private static final long DEFAULT_MAX_INTERVAL = 3 * 60 * 1000L;
 
-        @Override
         public void handler(LockInfo lockInfo, Lock lock, JoinPoint joinPoint) {
             long interval = DEFAULT_INTERVAL;
 

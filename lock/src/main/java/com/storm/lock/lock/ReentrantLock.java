@@ -23,7 +23,6 @@ public class ReentrantLock implements Lock{
         this.redissonClient = redissonClient;
     }
 
-    @Override
     public boolean acquire() {
         rLock = redissonClient.getLock(lockInfo.getName());
         try {
@@ -33,7 +32,6 @@ public class ReentrantLock implements Lock{
         }
     }
 
-    @Override
     public boolean release() {
         if(rLock.isLocked() && rLock.isHeldByCurrentThread()){
             try {

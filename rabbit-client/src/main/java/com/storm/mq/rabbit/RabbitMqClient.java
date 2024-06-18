@@ -154,8 +154,7 @@ public class RabbitMqClient implements MqClient {
 
     private void initExchange(RabbitMqClientConfig.ExchangeConfig exchangeConfig) {
         MqChannel mqChannel = this.getChannel();
-        Channel channel = (Channel)mqChannel.unwrap();
-
+        Channel channel = mqChannel.unwrap();
         try {
             channel.exchangeDeclare(exchangeConfig.getName(), BuiltinExchangeType.TOPIC.getType(), true, false, null);
             if (this.rabbitMqClientConfig.isSupportDelayed()) {

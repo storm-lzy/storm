@@ -23,7 +23,6 @@ public class ReadLock implements Lock {
         this.redissonClient = redissonClient;
     }
 
-    @Override
     public boolean acquire() {
         rReadWriteLock = redissonClient.getReadWriteLock(lockInfo.getName());
         try {
@@ -33,7 +32,6 @@ public class ReadLock implements Lock {
         }
     }
 
-    @Override
     public boolean release() {
         if (rReadWriteLock.readLock().isLocked() && rReadWriteLock.readLock().isHeldByCurrentThread()) {
             try {

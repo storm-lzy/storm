@@ -6,3 +6,4 @@ spring:
     url: jdbc:mysql://rm-0tw99e06jh341arh7.mysql.rds.ops.muyuancloud.com:3306/my_myt_quality?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true&allowPublicKeyRetrieval=true&connectionCollation=utf8mb4_unicode_ci
     username: rw_myt_quality
     password: k_xTG4AWdW0L
+    type: com.zaxxer.hikari.HikariDataSource

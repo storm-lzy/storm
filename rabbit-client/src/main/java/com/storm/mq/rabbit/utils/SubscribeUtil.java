@@ -1,4 +1,4 @@
-package com.storm.mq.utils;
+package com.storm.mq.rabbit.utils;
 
 import cn.hutool.core.util.ObjUtil;
 import cn.hutool.core.util.StrUtil;

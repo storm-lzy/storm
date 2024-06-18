@@ -2,14 +2,13 @@ package com.storm.mq.configuration;
 
 import com.storm.mq.MqClient;
 import com.storm.mq.anno.MqSubscriber;
-import com.storm.mq.utils.SubscribeUtil;
+import com.storm.mq.rabbit.utils.SubscribeUtil;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.SmartInitializingSingleton;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.util.ClassUtils;
 
-import java.util.Iterator;
 import java.util.Map;
 import java.util.function.Function;
 

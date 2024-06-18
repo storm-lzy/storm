@@ -13,13 +13,11 @@ public enum ReleaseTimeoutStrategy implements ReleaseTimeoutHandler {
 
 
     NONE() {
-        @Override
         public void handler(LockInfo lockInfo) {
 
         }
     },
     FAST_FAIL() {
-        @Override
         public void handler(LockInfo lockInfo) {
             throw new GlobalLockTimeoutException(String.format("释放锁[%s]超时 Timeout[%s]", lockInfo.getName(), lockInfo.getWaitTime()));
         }

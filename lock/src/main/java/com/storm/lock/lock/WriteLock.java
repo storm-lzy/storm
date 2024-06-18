@@ -24,7 +24,6 @@ public class WriteLock implements Lock {
     }
 
 
-    @Override
     public boolean acquire() {
         rReadWriteLock = redissonClient.getReadWriteLock(lockInfo.getName());
         try {
@@ -34,7 +33,6 @@ public class WriteLock implements Lock {
         }
     }
 
-    @Override
     public boolean release() {
         if (rReadWriteLock.writeLock().isLocked() && rReadWriteLock.writeLock().isHeldByCurrentThread()) {
             try {

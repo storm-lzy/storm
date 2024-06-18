@@ -331,7 +331,7 @@ public class RabbitMqChannel implements MqChannel {
     }
 
     @Override
-    public Object unwrap() {
+    public Channel unwrap() {
         return this.channel;
     }
 }

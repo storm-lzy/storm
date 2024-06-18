@@ -26,7 +26,7 @@ public class AbstractClientConfig<T extends ConsumerConfig> implements ClientCon
     private ThreadConfig ioThread = new ThreadConfig(3,-1);
     private ThreadConfig producerThread = new ThreadConfig(3,-1);
     private ThreadConfig consumerThread = new ThreadConfig(3,-1);
-    private RabbitMqClientConfig.RabbitConsumerConfig consumer;
+    private @NotNull RabbitMqClientConfig.RabbitConsumerConfig consumer;
     private String repositoryId;
     private @NotNull Codec codec;
     private @NotEmpty List<Codec> allSupportCodecs;

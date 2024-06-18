@@ -23,7 +23,6 @@ public class FairLock implements Lock {
         this.redissonClient = redissonClient;
     }
 
-    @Override
     public boolean acquire() {
         try {
             rLock = redissonClient.getFairLock(lockInfo.getName());
@@ -33,7 +32,6 @@ public class FairLock implements Lock {
         }
     }
 
-    @Override
     public boolean release() {
         if (rLock.isLocked() && rLock.isHeldByCurrentThread()) {
             try {
