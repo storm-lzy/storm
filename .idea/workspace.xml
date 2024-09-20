@@ -4,54 +4,85 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="386ee20a-aae8-494c-befd-191f60e2e20d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/ShardApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/entity/CourseSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/entity/District.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/mapper/CourseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/mapper/CourseSectionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/mapper/DistrictMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/vo/CourseVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot1/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot1/src/test/java/com/storm/shardingsphere/TestCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot1/src/test/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot2/src/main/java/com/storm/shard/PoolApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot2/src/main/java/com/storm/shard/entity/Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot2/src/main/java/com/storm/shard/mapper/ProductsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot2/src/main/java/com/storm/shard/pool/Channel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot2/src/main/java/com/storm/shard/pool/ChannelPoolObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot2/src/main/java/com/storm/shard/pool/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot2/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot2/src/test/java/com/storm/shard/TestProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot2/src/test/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-im-certer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-im-certer/src/main/java/com/storm/im/ImApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-im-certer/src/main/java/com/storm/im/netty/WsServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-im-certer/src/main/java/com/storm/im/netty/handler/WsServerHeartHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-im-certer/src/main/java/com/storm/im/netty/handler/WsServerMessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-im-certer/src/main/resources/application.yaml" afterDir="false" />
+    <list default="true" id="0ec4ebcd-1e28-45c6-98fa-8fb1a50b31f8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/context/HandleContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/AbstractDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/Demo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/DemoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/InterfaceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/RunDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/enums/HandleEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/enums/OrderStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/handle/AbstractHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/handle/impl/Demo1Handle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/handle/impl/Demo2Handle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/lock/Demno1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/run/RunDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/GlobalLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/GlobalLockAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/LockTimeoutStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/LockType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/AcquiredFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/AcquiredFunctionVoid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/GlobalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/GlobalRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/KeyProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/LockProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/LockTimeoutHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/UnLockOpportunityEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5d745f5bf1f6a4e0816539ca7a3a303cf8bd161e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f370a59972bb83e09699926723adc88026f7bdd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/a/0aa6059b2b5684bcd447e9921e6345a1417410c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/6/1654decb7217752c97c52cf7df096e909bdd4cfd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/7/177a41fe6a62a10e976e3f8fd5237321efd0917a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/7/17e405e6d462a8f06d5f55ad9344b240ad715969" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/9/19a5d4d1800221a08f177361da49b2232f4519df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/9/299e475634650b8e3946668dfc0992913defec80" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/a/2a3a7146fe628baa8d14889deaec4eef080b4512" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/a/2a9fa7895e30573442f46e99bf25b46338830c41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/e/2e51c5d043b699c2de689f12201829dda3f4ad40" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/e/2efe24eb2d58a3f8e80822816465add0e74e98ce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/44f9ab20a5903991e6e4b8c2fc55f204b97c3f2e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/e/4e6ae0c1c53ce291ae0ede87e9c91a5d3c57d652" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/b/5b8e5f4c0da922d4ff2b3081abb42a05b4323eb8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/d/5d745f5bf1f6a4e0816539ca7a3a303cf8bd161e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/f/5f370a59972bb83e09699926723adc88026f7bdd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/6/6682aa5bc80feaa090aacb7e20aa01e92939c372" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/7/77161c1df45eb29eb3c98b4c9dbcc0e90e154bff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/4/84453bfb2f83a9b838f0f81910a66bb6b4b161f5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/7/87656f318410b180dd7c8eadf0bdce37ac91aed4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/a/8ac9274cd7e4a83dca7817280113eafed9cf4f93" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/d/8dc0962659836230a7a12bdbf0febe3d539d66c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/3/9374c7d848f82005a81349a1b96f33a04eba533a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/b/bbf1d90d06d7498bb9a7e414c7a8e661e768c968" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/3/d37b659bbaad76d328780109017d5ab08f1a5a52" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/6/d6e42f67074aeca4e9cbc9510cd1daa6d54af386" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/5/e50890b7eaef876fa8898be9abb651c289264241" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/9/e914a7f116a5abba4a4039cb266e1bac9b4a916d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/e/ee0a58a5aa43093cdcbfb946e1573437a9221918" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/1/f192c71acbcb4e938a8871fe23ccf654df4c3b9b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/2/f2232637e55b8896ab0d999a9535f2c49aa4bacf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/3/f33df13ed75dab23b67cec8f6b2834090ac46e49" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/9/f99c33b377e1f73a23ec2ec2f406492d304304d4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/storm.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boot1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Boot1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boot2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Boot2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/enums/LockTimeoutStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/enums/LockTimeoutStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/enums/ReleaseTimeoutStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/enums/ReleaseTimeoutStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/lock/FairLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/lock/FairLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/lock/ReadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/lock/ReadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/lock/ReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/lock/ReentrantLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/lock/WriteLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/lock/WriteLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/MqChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/MqChannel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/config/AbstractClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/config/AbstractClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/aspect/GlobalLockAspectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/aspect/GlobalLockAspectHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/configuration/MqSubscriberInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/configuration/MqSubscriberInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/rabbit/RabbitMqChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/rabbit/RabbitMqChannel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/rabbit/RabbitMqClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/rabbit/RabbitMqClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/utils/SubscribeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/rabbit/utils/SubscribeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storm-spring/src/test/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/storm-spring/src/test/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storm-spring/target/test-classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/storm-spring/target/test-classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/rabbit/utils/SubscribeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/rabbit/utils/SubscribeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storm-arithmetic/src/main/java/demo/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/demo/Demo1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +92,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
         <option value="Enum" />
-        <option value="Interface" />
-        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -78,309 +106,232 @@
     &quot;assignee&quot;: &quot;storm-lzy&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="f59ac695-8cde-43dc-8de2-99df30cbf146" />
-        <option name="url" value="https://github.com/storm-lzy/storm.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/storm-lzy/storm.git&quot;,
+    &quot;accountId&quot;: &quot;779845b6-a6b2-492b-a7fd-5758c1552099&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\World\work\plugin\store\maven\dindo_repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../work/plugin/store/maven/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\World\work\plugin\store\maven\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="customMavenHome" value="D:\package\maven\apache-maven-3.6.3" />
+        <option name="localRepository" value="D:\package\maven\repo" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\package\maven\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 2
 }</component>
-  <component name="ProjectId" id="2fRi33ZLWdTEo1yrI3YprLEo9O6" />
+  <component name="ProjectId" id="2jPLGVWxvJ4cLYKcTKk72maH0Gg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/World/study/code/storm/Boot2/src/test/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.25172412",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Demno1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RunDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.storm.boot3.demo.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Boot4ApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Boot4ApplicationTests.contextLoads1.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Boot3Application.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.Boot4Application.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/work/space/DTS数据订阅/dts-server-master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.25172412&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="ReactorSettings">
-    <option name="notificationShown" value="true" />
-  </component>
+}</component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\World\study\code\storm\Boot2\src\test\resources" />
-      <recent name="D:\World\study\code\storm\Boot2\src\main\resources" />
-      <recent name="D:\World\study\code\storm\Boot1\src\test\resources" />
-      <recent name="D:\World\study\code\storm\rabbit-client\src" />
-      <recent name="D:\World\study\code\storm\lock\src\test\resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\World\study\code\storm\storm-spring\src\test\resources" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.storm.boot4" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.storm.mq.codec.enums" />
+      <recent name="com.storm.boot4.demo" />
+      <recent name="com.storm.boot4.aspect" />
+      <recent name="com.storm.boot3.enums" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.TestProduct.testTrans">
-    <configuration name="TestCourse.testBroadcast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Boot1" />
-      <shortenClasspath name="MANIFEST" />
+  <component name="RunManager" selected="JUnit.Boot4ApplicationTests.contextLoads">
+    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.boot3.demo.Demo2" />
+      <module name="Boot3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.storm.shardingsphere.*" />
+          <option name="PATTERN" value="com.storm.boot3.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.storm.shardingsphere" />
-      <option name="MAIN_CLASS_NAME" value="com.storm.shardingsphere.TestCourse" />
-      <option name="METHOD_NAME" value="testBroadcast" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.boot3.demo.Demo3" />
+      <module name="Boot3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.storm.boot3.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.storm.boot3.demo.Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.boot3.demo.Demo1" />
+      <module name="Boot3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.storm.boot3.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Boot4ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Boot4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.storm.boot4.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.storm.boot4" />
+      <option name="MAIN_CLASS_NAME" value="com.storm.boot4.Boot4ApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCourse.testSelectBroadcast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Boot1" />
-      <shortenClasspath name="MANIFEST" />
+    <configuration name="Boot4ApplicationTests.contextLoads1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Boot4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.storm.shardingsphere.*" />
+          <option name="PATTERN" value="com.storm.boot4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.storm.shardingsphere" />
-      <option name="MAIN_CLASS_NAME" value="com.storm.shardingsphere.TestCourse" />
-      <option name="METHOD_NAME" value="testSelectBroadcast" />
+      <option name="PACKAGE_NAME" value="com.storm.boot4" />
+      <option name="MAIN_CLASS_NAME" value="com.storm.boot4.Boot4ApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestProduct.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Boot2" />
-      <shortenClasspath name="MANIFEST" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.storm.shard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.storm.shard" />
-      <option name="MAIN_CLASS_NAME" value="com.storm.shard.TestProduct" />
-      <option name="METHOD_NAME" value="testInsert" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="Boot3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Boot3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.storm.boot3.Boot3Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestProduct.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Boot2" />
-      <shortenClasspath name="MANIFEST" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.storm.shard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.storm.shard" />
-      <option name="MAIN_CLASS_NAME" value="com.storm.shard.TestProduct" />
-      <option name="METHOD_NAME" value="testSelect" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestProduct.testTrans" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Boot2" />
-      <shortenClasspath name="MANIFEST" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.storm.shard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.storm.shard" />
-      <option name="MAIN_CLASS_NAME" value="com.storm.shard.TestProduct" />
-      <option name="METHOD_NAME" value="testTrans" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <shortenClasspath name="MANIFEST" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="Boot4Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Boot4" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.storm.boot4.Boot4Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestProduct.testTrans" />
-        <item itemvalue="JUnit.TestProduct.testSelect" />
-        <item itemvalue="JUnit.TestProduct.testInsert" />
-        <item itemvalue="JUnit.TestCourse.testSelectBroadcast" />
-        <item itemvalue="JUnit.TestCourse.testBroadcast" />
+        <item itemvalue="JUnit.Boot4ApplicationTests.contextLoads" />
+        <item itemvalue="Application.com.storm.boot3.demo.Demo1" />
+        <item itemvalue="JUnit.Boot4ApplicationTests.contextLoads1" />
+        <item itemvalue="Application.Demo2" />
+        <item itemvalue="Application.Demo3" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\15690\AppData\Roaming\Subversion</configuration>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="386ee20a-aae8-494c-befd-191f60e2e20d" name="Changes" comment="" />
-      <created>1713770091526</created>
+      <changelist id="0ec4ebcd-1e28-45c6-98fa-8fb1a50b31f8" name="Changes" comment="" />
+      <created>1721283669499</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1713770091526</updated>
-      <workItem from="1713770096132" duration="3281000" />
-      <workItem from="1713918282246" duration="605000" />
-      <workItem from="1713918899545" duration="2434000" />
-      <workItem from="1714040829294" duration="1326000" />
-      <workItem from="1714090693467" duration="28000" />
-      <workItem from="1714191004409" duration="536000" />
-      <workItem from="1714438122538" duration="3991000" />
-      <workItem from="1714469893354" duration="635000" />
-      <workItem from="1714983948805" duration="279000" />
-      <workItem from="1715128443142" duration="5216000" />
-      <workItem from="1715213354796" duration="975000" />
-      <workItem from="1715314082125" duration="149000" />
-      <workItem from="1715411133315" duration="7234000" />
-      <workItem from="1715506580072" duration="81000" />
-      <workItem from="1715512820432" duration="2667000" />
-      <workItem from="1715584855872" duration="9000" />
-      <workItem from="1715603202722" duration="2136000" />
-      <workItem from="1715644396087" duration="175000" />
-      <workItem from="1715645500368" duration="768000" />
-      <workItem from="1715904617953" duration="3231000" />
-      <workItem from="1715910227809" duration="87000" />
-      <workItem from="1715941231242" duration="848000" />
-      <workItem from="1716014576524" duration="1960000" />
-      <workItem from="1716188740687" duration="2142000" />
-      <workItem from="1716860405796" duration="683000" />
-      <workItem from="1716943018284" duration="2912000" />
-      <workItem from="1716945949893" duration="8555000" />
-      <workItem from="1716954741290" duration="2832000" />
-      <workItem from="1716966211900" duration="5463000" />
-      <workItem from="1716972448992" duration="2879000" />
-      <workItem from="1717028307674" duration="1635000" />
-      <workItem from="1717493568343" duration="65000" />
-      <workItem from="1718273568810" duration="336000" />
-      <workItem from="1718273908980" duration="7668000" />
-      <workItem from="1718334692941" duration="127000" />
-      <workItem from="1718347206135" duration="15546000" />
-      <workItem from="1718373018059" duration="2477000" />
-      <workItem from="1718424092357" duration="13473000" />
-      <workItem from="1718438969617" duration="9500000" />
-      <workItem from="1718452988532" duration="5747000" />
-      <workItem from="1718496575047" duration="6792000" />
-      <workItem from="1718503395262" duration="5577000" />
-      <workItem from="1718519746981" duration="7058000" />
-      <workItem from="1718585014093" duration="4308000" />
-      <workItem from="1718614126556" duration="769000" />
-      <workItem from="1718615977541" duration="2927000" />
-      <workItem from="1718669417494" duration="2706000" />
-      <workItem from="1718674686418" duration="8543000" />
-      <workItem from="1718697674432" duration="4910000" />
+      <updated>1721283669499</updated>
+      <workItem from="1721283670518" duration="1366000" />
+      <workItem from="1721293853895" duration="2298000" />
+      <workItem from="1721368445765" duration="3375000" />
+      <workItem from="1721371836415" duration="470000" />
+      <workItem from="1721375723906" duration="2514000" />
+      <workItem from="1721981657548" duration="7004000" />
+      <workItem from="1722317353048" duration="18832000" />
+      <workItem from="1722385128853" duration="9845000" />
+      <workItem from="1722572146168" duration="2565000" />
+      <workItem from="1722646069209" duration="1940000" />
+      <workItem from="1722729071947" duration="2064000" />
+      <workItem from="1722749174280" duration="1164000" />
+      <workItem from="1723517266819" duration="5253000" />
+      <workItem from="1723716340722" duration="893000" />
+      <workItem from="1723789644297" duration="483000" />
+      <workItem from="1723796352407" duration="5986000" />
+      <workItem from="1723808814282" duration="140000" />
+      <workItem from="1723809059696" duration="597000" />
+      <workItem from="1723811229175" duration="1072000" />
+      <workItem from="1724039256978" duration="670000" />
+      <workItem from="1724141029966" duration="855000" />
+      <workItem from="1724287180510" duration="278000" />
+      <workItem from="1724313823557" duration="462000" />
+      <workItem from="1724418430388" duration="1458000" />
+      <workItem from="1724631633503" duration="10000" />
+      <workItem from="1724660668728" duration="1709000" />
+      <workItem from="1724738481308" duration="26000" />
+      <workItem from="1724742844285" duration="2255000" />
+      <workItem from="1724808227242" duration="913000" />
+      <workItem from="1724809254304" duration="1358000" />
+      <workItem from="1724915251394" duration="2992000" />
+      <workItem from="1725247463265" duration="1246000" />
+      <workItem from="1725258423508" duration="7781000" />
+      <workItem from="1725324084606" duration="3367000" />
+      <workItem from="1726046466303" duration="1810000" />
+      <workItem from="1726126030274" duration="785000" />
+      <workItem from="1726128127244" duration="1467000" />
+      <workItem from="1726274882363" duration="18368000" />
+      <workItem from="1726708161350" duration="2196000" />
     </task>
-    <task id="LOCAL-00001" summary="分布式锁">
-      <option name="closed" value="true" />
-      <created>1716973776789</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1716973776789</updated>
-    </task>
-    <task id="LOCAL-00002" summary="RabbitMq">
-      <option name="closed" value="true" />
-      <created>1718447053465</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1718447053465</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="分布式锁" />
-    <MESSAGE value="RabbitMq" />
-    <option name="LAST_COMMIT_MESSAGE" value="RabbitMq" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/rabbit/MessageConsumer.java</url>
-          <line>79</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <pin-to-top-manager>
-      <pinned-members>
-        <PinnedItemInfo parentTag="org.apache.commons.pool2.impl.DefaultPooledObject" memberName="state" />
-        <PinnedItemInfo parentTag="org.springframework.boot.ApplicationServletEnvironment" memberName="propertyResolver" />
-        <PinnedItemInfo parentTag="org.springframework.boot.env.RandomValuePropertySource" memberName="source" />
-        <PinnedItemInfo parentTag="sun.reflect.annotation.AnnotationInvocationHandler" memberName="type" />
-        <PinnedItemInfo parentTag="org.springframework.boot.ApplicationServletEnvironment" memberName="propertySources" />
-        <PinnedItemInfo parentTag="org.springframework.boot.ApplicationServletEnvironment" memberName="logger" />
-        <PinnedItemInfo parentTag="org.springframework.core.env.PropertiesPropertySource" memberName="name" />
-      </pinned-members>
-    </pin-to-top-manager>
-    <watches-manager>
-      <configuration name="SpringBootApplicationConfigurationType">
-        <watch expression="((ApplicationEnvironmentPreparedEvent)event).environment" custom="org.springframework.boot.context.event.ApplicationEnvironmentPreparedEvent" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

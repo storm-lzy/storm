@@ -8,16 +8,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="storm-spring" />
+        <module name="Boot4" />
         <module name="storm-im-certer" />
         <module name="Boot2" />
+        <module name="Boot3" />
         <module name="Boot1" />
         <module name="lock" />
         <module name="storm-rabbit-client" />
         <module name="storm-arithmetic" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
-      <module name="rabbit-client" target="1.8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Boot3" options="-parameters" />
+      <module name="Boot4" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -77,7 +77,7 @@ public class SubscribeUtil {
                     try {
                         Object[] params = new Object[parameters.length];
 
-                        for(int i = 0; i < params.length; ++i) {
+                        for (int i = 0; i < params.length; ++i) {
                             Parameter parameter = parameters[i];
                             Class<?> type = parameter.getType();
                             if (MessageContext.class.isAssignableFrom(type)) {
@@ -93,13 +93,12 @@ public class SubscribeUtil {
                                 params[i] = codec.decode(messageContext.getPayload(), parameter.getParameterizedType(), messageContext.getContentEncoding());
                             }
                         }
-                        return (Ack)consumerMethod.invoke(messageHandlerBean, params);
+                        return (Ack) consumerMethod.invoke(messageHandlerBean, params);
                     } catch (InvocationTargetException var8) {
                         throw var8.getCause();
                     }
                 }
             });
-
 
 
         });
@@ -115,13 +114,13 @@ public class SubscribeUtil {
                 throw new SubscribeException(beanClass, "订阅类没有consumer方法可用");
             } else {
                 Method consumerMethod;
-                if(candidates.size() == 1){
+                if (candidates.size() == 1) {
                     consumerMethod = candidates.get(0);
-                }else {
+                } else {
                     List<Method> declaredConsumerMethod = candidates.stream().filter(method -> method.getAnnotation(ConsumerMethod.class) != null).collect(Collectors.toList());
-                    if(declaredConsumerMethod.size() != 1){
+                    if (declaredConsumerMethod.size() != 1) {
                         throw new SubscribeException(beanClass, String.format("订阅类[%s]有多个符合要求的Consumer方法, [%s, %s]", beanClass, candidates, declaredConsumerMethod));
-                    }else {
+                    } else {
                         consumerMethod = declaredConsumerMethod.get(0);
                     }
                 }
@@ -131,33 +130,29 @@ public class SubscribeUtil {
     }
 
     private static boolean validate(Method method, Class<?> beanClass) {
-        if (method.getName().equals("setSkyWalkingDynamicField")) {
+        Class<?> returnType = method.getReturnType();
+        if (!Void.TYPE.equals(returnType) && !Ack.class.equals(returnType)) {
             return false;
         } else {
-            Class<?> returnType = method.getReturnType();
-            if (!Void.TYPE.equals(returnType) && !Ack.class.equals(returnType)) {
+            Parameter[] parameters = method.getParameters();
+            if (parameters.length == 0) {
+                return false;
+            } else if (!method.getDeclaringClass().equals(beanClass)) {
                 return false;
             } else {
-                Parameter[] parameters = method.getParameters();
-                if (parameters.length == 0) {
-                    return false;
-                } else if (!method.getDeclaringClass().equals(beanClass)) {
-                    return false;
-                } else {
-                    boolean hasObject = false;
-                    int var1 = parameters.length;
-                    for (int var2 = 0; var2 < var1; var2++) {
-                        Parameter parameter = parameters[var2];
-                        Class<?> type = parameter.getType();
-                        if (!Message.class.isAssignableFrom(type) && !CODEC_CLASS.contains(type)) {
-                            if (hasObject) {
-                                return false;
-                            }
-                            hasObject = true;
+                boolean hasObject = false;
+                int var1 = parameters.length;
+                for (int var2 = 0; var2 < var1; var2++) {
+                    Parameter parameter = parameters[var2];
+                    Class<?> type = parameter.getType();
+                    if (!Message.class.isAssignableFrom(type) && !CODEC_CLASS.contains(type)) {
+                        if (hasObject) {
+                            return false;
                         }
+                        hasObject = true;
                     }
-                    return true;
                 }
+                return true;
             }
         }
     }

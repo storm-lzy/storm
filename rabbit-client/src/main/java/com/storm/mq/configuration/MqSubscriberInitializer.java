@@ -25,7 +25,6 @@ public class MqSubscriberInitializer implements ApplicationContextAware, SmartIn
         Map<String, Object> beansWithAnnotation = this.applicationContext.getBeansWithAnnotation(MqSubscriber.class);
         Function<String, MqClient> mqClientProvider = (clientName) -> this.applicationContext.getBean(clientName,MqClient.class);
         String applicationName = this.applicationContext.getEnvironment().getProperty("spring.application.name");
-
         for (Object messageHandlerBean : beansWithAnnotation.values()) {
             SubscribeUtil.subscribe(mqClientProvider, messageHandlerBean, ClassUtils.getUserClass(messageHandlerBean), applicationName);
         }
