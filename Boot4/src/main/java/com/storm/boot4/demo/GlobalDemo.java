@@ -3,6 +3,7 @@ package com.storm.boot4.demo;
 import com.storm.boot4.aspect.GlobalLock;
 import com.storm.boot4.aspect.LockTimeoutStrategy;
 import com.storm.boot4.aspect.LockType;
+import com.storm.boot4.aspect.RedisKeyEnum;
 import org.springframework.stereotype.Service;
 
 /**
@@ -39,7 +40,7 @@ public class GlobalDemo {
     }
 
     // 默认 可重入锁、获取时间1小时、使用时间1小时、失败策略：退出
-    @GlobalLock(name = "ORDER_STATUS")
+    @GlobalLock(value = RedisKeyEnum.class,name = "ORDER_STATUS")
     public void lockOrder1(GlobalRequest request) {
     }
 

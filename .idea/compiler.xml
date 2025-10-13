@@ -11,11 +11,13 @@
         <module name="Boot4" />
         <module name="storm-im-certer" />
         <module name="Boot2" />
+        <module name="alibaba-dts-starter" />
         <module name="Boot3" />
         <module name="Boot1" />
         <module name="lock" />
         <module name="storm-rabbit-client" />
         <module name="storm-arithmetic" />
+        <module name="algorithms-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

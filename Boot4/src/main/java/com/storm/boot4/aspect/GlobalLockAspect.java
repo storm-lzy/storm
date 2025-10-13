@@ -4,8 +4,12 @@ import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.reflect.MethodSignature;
+import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.BeanFactoryAware;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.expression.BeanFactoryResolver;
 import org.springframework.expression.Expression;
 import org.springframework.expression.spel.standard.SpelExpressionParser;
@@ -17,7 +21,7 @@ import java.util.List;
 
 @Aspect
 @Component
-public class GlobalLockAspect {
+public class GlobalLockAspect implements BeanFactoryAware , ApplicationContextAware {
 
 
     @Autowired
@@ -43,10 +47,20 @@ public class GlobalLockAspect {
 
         // 解析 SpEL 表达式
         Expression expression = parser.parseExpression(globalLock.key());
-        String lockKey = expression.getValue(context, String.class);
+        List<String> lockKey = expression.getValue(context, List.class);
         System.err.println("分布式锁 key = " + lockKey);
 
 
         return pjp.proceed();
+    }
+
+    @Override
+    public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
+
+    }
+
+    @Override
+    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+
     }
 }

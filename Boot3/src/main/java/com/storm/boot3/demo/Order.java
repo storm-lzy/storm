@@ -11,4 +11,11 @@ public class Order {
 
     private Long workerId;
     private Integer orderId;
+
+    private String[] arr;
+
+    public Order() {
+        arr = new String[10];
+        arr[0] = "1";
+    }
 }

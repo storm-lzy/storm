@@ -25,7 +25,6 @@ public enum LockTimeoutStrategy implements LockTimeoutHandler {
     FAST_FAIL() {
         @Override
         public void handler() {
-
         }
     },
 

@@ -5,83 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ec4ebcd-1e28-45c6-98fa-8fb1a50b31f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/context/HandleContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/AbstractDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/Demo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/DemoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/InterfaceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/RunDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/enums/HandleEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/enums/OrderStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/handle/AbstractHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/handle/impl/Demo1Handle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/handle/impl/Demo2Handle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/lock/Demno1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/run/RunDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/GlobalLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/GlobalLockAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/LockTimeoutStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/LockType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/AcquiredFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/AcquiredFunctionVoid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/GlobalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/GlobalRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/KeyProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/LockProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/LockTimeoutHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/UnLockOpportunityEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/entity/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/entity/d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/entity/e.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/net/ChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/net/ChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot1/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot2/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/IntegerConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/SerialNumberGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/enums/TestEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/lock/Demno2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/lock/DemoInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot3/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/EnumInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/RedisKeyEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/TestEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/day1/LeetCode3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/day1/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/demo/OrderPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storm-im-certer/target/classes/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5d745f5bf1f6a4e0816539ca7a3a303cf8bd161e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f370a59972bb83e09699926723adc88026f7bdd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/a/0aa6059b2b5684bcd447e9921e6345a1417410c6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/6/1654decb7217752c97c52cf7df096e909bdd4cfd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/7/177a41fe6a62a10e976e3f8fd5237321efd0917a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/7/17e405e6d462a8f06d5f55ad9344b240ad715969" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/9/19a5d4d1800221a08f177361da49b2232f4519df" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/9/299e475634650b8e3946668dfc0992913defec80" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/a/2a3a7146fe628baa8d14889deaec4eef080b4512" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/a/2a9fa7895e30573442f46e99bf25b46338830c41" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/e/2e51c5d043b699c2de689f12201829dda3f4ad40" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/e/2efe24eb2d58a3f8e80822816465add0e74e98ce" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/44f9ab20a5903991e6e4b8c2fc55f204b97c3f2e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/e/4e6ae0c1c53ce291ae0ede87e9c91a5d3c57d652" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/b/5b8e5f4c0da922d4ff2b3081abb42a05b4323eb8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/d/5d745f5bf1f6a4e0816539ca7a3a303cf8bd161e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/f/5f370a59972bb83e09699926723adc88026f7bdd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/6/6682aa5bc80feaa090aacb7e20aa01e92939c372" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/7/77161c1df45eb29eb3c98b4c9dbcc0e90e154bff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/4/84453bfb2f83a9b838f0f81910a66bb6b4b161f5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/7/87656f318410b180dd7c8eadf0bdce37ac91aed4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/a/8ac9274cd7e4a83dca7817280113eafed9cf4f93" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/d/8dc0962659836230a7a12bdbf0febe3d539d66c2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/3/9374c7d848f82005a81349a1b96f33a04eba533a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/b/bbf1d90d06d7498bb9a7e414c7a8e661e768c968" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/3/d37b659bbaad76d328780109017d5ab08f1a5a52" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/6/d6e42f67074aeca4e9cbc9510cd1daa6d54af386" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/5/e50890b7eaef876fa8898be9abb651c289264241" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/9/e914a7f116a5abba4a4039cb266e1bac9b4a916d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/e/ee0a58a5aa43093cdcbfb946e1573437a9221918" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/1/f192c71acbcb4e938a8871fe23ccf654df4c3b9b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/2/f2232637e55b8896ab0d999a9535f2c49aa4bacf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/3/f33df13ed75dab23b67cec8f6b2834090ac46e49" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/9/f99c33b377e1f73a23ec2ec2f406492d304304d4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/storm.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/aspect/GlobalLockAspectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/aspect/GlobalLockAspectHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/configuration/MqSubscriberInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/configuration/MqSubscriberInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/rabbit/utils/SubscribeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-client/src/main/java/com/storm/mq/rabbit/utils/SubscribeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/entity/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Boot3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/Boot3Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/Boot3Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/Demo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/Demo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/handle/impl/Demo1Handle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/handle/impl/Demo1Handle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/lock/Demno1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/lock/Demno1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/GlobalLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/GlobalLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/GlobalLockAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/GlobalLockAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/LockTimeoutStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/LockTimeoutStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/AcquiredFunctionVoid.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/AcquiredVoidFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/GlobalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/GlobalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/KeyProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/KeyProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/LockProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/LockProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boot4/src/test/java/com/storm/boot4/Boot4ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot4/src/test/java/com/storm/boot4/Boot4ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/lock/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/lock/Lock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storm-arithmetic/src/main/java/demo/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/demo/Demo1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +57,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -135,19 +100,35 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BucketSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChatClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChatServer.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CountingSort.executor&quot;: &quot;Run&quot;,
     &quot;Application.Demno1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo1.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Demo2.executor&quot;: &quot;Run&quot;,
     &quot;Application.Demo3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeetCode3.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MergeSort.executor&quot;: &quot;Debug&quot;,
     &quot;Application.RunDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SerialNumberGenerator.executor&quot;: &quot;Run&quot;,
     &quot;Application.com.storm.boot3.demo.Demo1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Boot4ApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;Application.d.executor&quot;: &quot;Run&quot;,
+    &quot;Application.e.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Boot4ApplicationTests.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Boot4ApplicationTests.contextLoads.executor&quot;: &quot;Debug&quot;,
     &quot;JUnit.Boot4ApplicationTests.contextLoads1.executor&quot;: &quot;Run&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;New/updated database configurations found&quot;,
+    &quot;Notification.DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;true&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AlgorithmsApplication.executor&quot;: &quot;Debug&quot;,
     &quot;Spring Boot.Boot3Application.executor&quot;: &quot;Debug&quot;,
     &quot;Spring Boot.Boot4Application.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -160,9 +141,10 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.25172412&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -172,18 +154,29 @@
       <recent name="com.storm.boot4" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.storm.boot4.demo" />
+      <recent name="com.storm.boot3.lock" />
       <recent name="com.storm.boot4.aspect" />
+      <recent name="com.storm.boot4.demo" />
       <recent name="com.storm.boot3.enums" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Boot4ApplicationTests.contextLoads">
-    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.storm.boot3.demo.Demo2" />
-      <module name="Boot3" />
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MergeSort">
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo1" />
+      <module name="storm-arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.storm.boot3.demo.*" />
+          <option name="PATTERN" value="demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.storm.boot3.demo.Demo3" />
-      <module name="Boot3" />
+    <configuration name="LeetCode3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day1.LeetCode3" />
+      <module name="storm-arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.storm.boot3.demo.*" />
+          <option name="PATTERN" value="day1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,12 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.storm.boot3.demo.Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.storm.boot3.demo.Demo1" />
-      <module name="Boot3" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day1.MergeSort" />
+      <module name="storm-arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.storm.boot3.demo.*" />
+          <option name="PATTERN" value="day1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,34 +210,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boot4ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Boot4" />
+    <configuration name="d" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.shardingsphere.entity.d" />
+      <module name="Boot1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.storm.boot4.demo.*" />
+          <option name="PATTERN" value="com.storm.shardingsphere.entity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.storm.boot4" />
-      <option name="MAIN_CLASS_NAME" value="com.storm.boot4.Boot4ApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boot4ApplicationTests.contextLoads1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Boot4" />
+    <configuration name="e" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.shardingsphere.entity.e" />
+      <module name="Boot1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.storm.boot4.*" />
+          <option name="PATTERN" value="com.storm.shardingsphere.entity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.storm.boot4" />
-      <option name="MAIN_CLASS_NAME" value="com.storm.boot4.Boot4ApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads1" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlgorithmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="algorithms-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.storm.algorithms.AlgorithmsApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -265,19 +259,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Boot4ApplicationTests.contextLoads" />
-        <item itemvalue="Application.com.storm.boot3.demo.Demo1" />
-        <item itemvalue="JUnit.Boot4ApplicationTests.contextLoads1" />
-        <item itemvalue="Application.Demo2" />
-        <item itemvalue="Application.Demo3" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.Demo1" />
+        <item itemvalue="Application.LeetCode3" />
+        <item itemvalue="Application.e" />
+        <item itemvalue="Application.d" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
       </set>
     </attachedChunks>
   </component>
@@ -328,10 +322,122 @@
       <workItem from="1726128127244" duration="1467000" />
       <workItem from="1726274882363" duration="18368000" />
       <workItem from="1726708161350" duration="2196000" />
+      <workItem from="1726793143619" duration="1405000" />
+      <workItem from="1727053071482" duration="11916000" />
+      <workItem from="1727141649649" duration="4429000" />
+      <workItem from="1727429490583" duration="1631000" />
+      <workItem from="1727663787040" duration="7018000" />
+      <workItem from="1727678937739" duration="3857000" />
+      <workItem from="1727689919546" duration="452000" />
+      <workItem from="1728295030146" duration="11000" />
+      <workItem from="1728349988812" duration="15072000" />
+      <workItem from="1728433678600" duration="2512000" />
+      <workItem from="1728453328904" duration="608000" />
+      <workItem from="1728610208425" duration="1451000" />
+      <workItem from="1728872140561" duration="1296000" />
+      <workItem from="1728952345704" duration="3329000" />
+      <workItem from="1729048744194" duration="887000" />
+      <workItem from="1729675410779" duration="1377000" />
+      <workItem from="1730090138018" duration="1313000" />
+      <workItem from="1730163006429" duration="279000" />
+      <workItem from="1730165570661" duration="95000" />
+      <workItem from="1730334268475" duration="619000" />
+      <workItem from="1730447895189" duration="1171000" />
+      <workItem from="1730449734403" duration="1550000" />
+      <workItem from="1731025527037" duration="705000" />
+      <workItem from="1731308288395" duration="991000" />
+      <workItem from="1731380781359" duration="126000" />
+      <workItem from="1731403328571" duration="681000" />
+      <workItem from="1731463823928" duration="702000" />
+      <workItem from="1731477401168" duration="999000" />
+      <workItem from="1731545347844" duration="603000" />
+      <workItem from="1732074654669" duration="1320000" />
+      <workItem from="1735608512369" duration="517000" />
+      <workItem from="1736149614408" duration="2044000" />
+      <workItem from="1736236566880" duration="848000" />
+      <workItem from="1736402010864" duration="4219000" />
+      <workItem from="1736819389208" duration="2361000" />
+      <workItem from="1737082392890" duration="641000" />
+      <workItem from="1737161959036" duration="383000" />
+      <workItem from="1737335503180" duration="30000" />
+      <workItem from="1739174431228" duration="1228000" />
+      <workItem from="1740713593949" duration="2038000" />
+      <workItem from="1742549449250" duration="2552000" />
+      <workItem from="1746004740402" duration="658000" />
+      <workItem from="1747296425718" duration="1294000" />
+      <workItem from="1748058370857" duration="1418000" />
+      <workItem from="1750328556776" duration="733000" />
+      <workItem from="1750833321695" duration="391000" />
+      <workItem from="1751432976652" duration="30000" />
+      <workItem from="1752226662934" duration="1414000" />
+      <workItem from="1752648749627" duration="630000" />
+      <workItem from="1753343353857" duration="1000" />
+      <workItem from="1754387632886" duration="675000" />
+      <workItem from="1754970272023" duration="797000" />
+      <workItem from="1755052534835" duration="977000" />
+      <workItem from="1755150021159" duration="1603000" />
+      <workItem from="1755499318515" duration="772000" />
+      <workItem from="1755850224730" duration="1945000" />
+      <workItem from="1756087403864" duration="15409000" />
+      <workItem from="1756198913313" duration="734000" />
+      <workItem from="1756436809707" duration="700000" />
+      <workItem from="1757407154397" duration="675000" />
+      <workItem from="1758764205644" duration="2270000" />
+      <workItem from="1758789043185" duration="203000" />
+      <workItem from="1758793111862" duration="10791000" />
+      <workItem from="1759027299549" duration="38253000" />
+      <workItem from="1759970014674" duration="24000" />
+      <workItem from="1759977152739" duration="1331000" />
+      <workItem from="1759999567364" duration="3942000" />
+      <workItem from="1760320754568" duration="1777000" />
     </task>
+    <task id="LOCAL-00001" summary="123">
+      <option name="closed" value="true" />
+      <created>1726793161061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726793161061</updated>
+    </task>
+    <task id="LOCAL-00002" summary="123">
+      <option name="closed" value="true" />
+      <created>1726793200324</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726793200324</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="123" />
+    <option name="LAST_COMMIT_MESSAGE" value="123" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/Demo3.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/lock/Demno1.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/code$LeetCode3.ic" NAME="LeetCode3 Coverage Results" MODIFIED="1759214367032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>day1.*</FILTER>
+    </SUITE>
   </component>
 </project>

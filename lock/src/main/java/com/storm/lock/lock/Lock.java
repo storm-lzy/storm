@@ -10,8 +10,6 @@ import org.redisson.api.RedissonClient;
 public interface Lock {
 
 
-
-
     /**
      * 获取锁
      *

@@ -50,6 +50,38 @@
             <artifactId>hutool-all</artifactId>
             <version>5.8.6</version>
         </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>2.0.13</version>
+        </dependency>
+
+        <!-- AspectJ 依赖 -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+            <version>1.9.8</version> <!-- 选择合适版本 -->
+        </dependency>
+
+        <!-- Spring AOP 依赖 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+            <version>5.3.20</version> <!-- 选择合适版本 -->
+        </dependency>
+
+        <!-- Spring AspectJ 配置 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>5.3.20</version> <!-- 选择合适版本 -->
+        </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-aop</artifactId>-->
+<!--        </dependency>-->
+
     </dependencies>
 
     <build>

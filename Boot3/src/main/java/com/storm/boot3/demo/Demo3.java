@@ -1,6 +1,11 @@
 package com.storm.boot3.demo;
 
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.concurrent.CountDownLatch;
+import java.util.stream.Collectors;
 
 /**
  * @author 李治毅
@@ -10,11 +15,8 @@ public class Demo3 {
 
     public static void main(String[] args) throws InterruptedException {
 
-        CountDownLatch countDownLatch = new CountDownLatch(10);
-        for (int i = 0; i < 11; i++) {
-            countDownLatch.countDown();
-        }
+        LocalDateTime beforeTime = LocalDateTime.now().minusDays(93);
+        System.err.println(beforeTime);
 
-        countDownLatch.await();
     }
 }

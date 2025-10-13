@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: sharding-jdbc
+  shardingsphere:
+    datasource:
+      names: db1
+      db1:
+        type: com.zaxxer.hikari.HikariDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://rm-cn-jte3sc7m40008aqo.rwlb.rds.aliyuncs.com:3306/msb_course_db?useUnicode=true&characterEncoding=utf-8&useSSL=false
+        username: storm
+        password: Lzy303051@
+    rules:
+      sharding:
+        tables:
+          t_course:
+            actual-data-nodes: db1.t_course_1,db1.t_course_2
+    props:
+      sql-show: true

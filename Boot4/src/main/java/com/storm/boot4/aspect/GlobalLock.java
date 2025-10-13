@@ -4,12 +4,18 @@ import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
-import java.util.ArrayList;
-import java.util.List;
 
+/**
+ * @author 15690
+ */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface GlobalLock {
+
+    /**
+     *
+     */
+    Class<? extends Enum<?>> value();
     /**
      * 锁名称
      */
