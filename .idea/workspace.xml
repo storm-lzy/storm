@@ -4,49 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ec4ebcd-1e28-45c6-98fa-8fb1a50b31f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/entity/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/entity/d.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/entity/e.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/net/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/net/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot1/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot2/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/IntegerConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/SerialNumberGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/enums/TestEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/lock/Demno2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/lock/DemoInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot3/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/EnumInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/RedisKeyEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/TestEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/day1/LeetCode3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/day1/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/demo/OrderPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storm-im-certer/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0ec4ebcd-1e28-45c6-98fa-8fb1a50b31f8" name="Changes" comment="123">
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/AlgorithmsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/query/HalfQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/query/QueryOneOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/query/QueryTwoOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/BubbleSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/BucketSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/LittleSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/MergeSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/SelectionSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/sorting/BucketSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/sorting/CountingSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/sorting/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/sorting/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/sorting/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/sorting/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/sorting/RadixSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/sorting/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/sorting/ShellSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot1/src/main/java/com/storm/shardingsphere/entity/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boot3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Boot3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/Boot3Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/Boot3Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/Demo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/Demo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/demo/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/handle/impl/Demo1Handle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/handle/impl/Demo1Handle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/lock/Demno1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/lock/Demno1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/GlobalLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/GlobalLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/GlobalLockAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/GlobalLockAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/LockTimeoutStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/aspect/LockTimeoutStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/AcquiredFunctionVoid.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/AcquiredVoidFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/GlobalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/GlobalDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/KeyProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/KeyProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/LockProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot4/src/main/java/com/storm/boot4/demo/LockProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boot4/src/test/java/com/storm/boot4/Boot4ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Boot4/src/test/java/com/storm/boot4/Boot4ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/lock/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock/src/main/java/com/storm/lock/lock/Lock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storm-arithmetic/src/main/java/demo/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/storm-arithmetic/src/main/java/demo/Demo1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,57 +78,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BucketSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChatClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChatServer.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CountingSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demno1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Demo2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeetCode3.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MergeSort.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RunDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SerialNumberGenerator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.storm.boot3.demo.Demo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.d.executor&quot;: &quot;Run&quot;,
-    &quot;Application.e.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Boot4ApplicationTests.Test1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Boot4ApplicationTests.contextLoads.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.Boot4ApplicationTests.contextLoads1.executor&quot;: &quot;Run&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;New/updated database configurations found&quot;,
-    &quot;Notification.DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AlgorithmsApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.Boot3Application.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.Boot4Application.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/work/space/DTS数据订阅/dts-server-master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.25172412&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BubbleSort.executor": "Run",
+    "Application.BubbleSortTest.executor": "Run",
+    "Application.BucketSort.executor": "Run",
+    "Application.BucketSortTest.executor": "Debug",
+    "Application.ChatClient.executor": "Run",
+    "Application.ChatServer.executor": "Debug",
+    "Application.CountingSort.executor": "Run",
+    "Application.Demno1.executor": "Run",
+    "Application.Demo1.executor": "Debug",
+    "Application.Demo2.executor": "Run",
+    "Application.Demo3.executor": "Run",
+    "Application.HalfQuery.executor": "Debug",
+    "Application.InsertionSort.executor": "Debug",
+    "Application.LeetCode3.executor": "Debug",
+    "Application.LittleSumTest.executor": "Debug",
+    "Application.MergeSort.executor": "Run",
+    "Application.MergeSortTest.executor": "Run",
+    "Application.QueryOneOdd.executor": "Run",
+    "Application.QueryTwoOdd.executor": "Run",
+    "Application.RunDemo.executor": "Run",
+    "Application.SelectionSortTest.executor": "Debug",
+    "Application.SerialNumberGenerator.executor": "Run",
+    "Application.com.storm.boot3.demo.Demo1.executor": "Run",
+    "Application.d.executor": "Run",
+    "Application.e.executor": "Run",
+    "JUnit.Boot4ApplicationTests.Test1.executor": "Run",
+    "JUnit.Boot4ApplicationTests.contextLoads.executor": "Debug",
+    "JUnit.Boot4ApplicationTests.contextLoads1.executor": "Run",
+    "Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found": "New/updated database configurations found",
+    "Notification.DoNotAsk-DatabaseConfigFileWatcher.found": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.AlgorithmsApplication.executor": "Debug",
+    "Spring Boot.Boot3Application.executor": "Debug",
+    "Spring Boot.Boot4Application.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/work/space/DTS数据订阅/dts-server-master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.25172412",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.storm.boot4" />
@@ -170,13 +159,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
-    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo1" />
-      <module name="storm-arithmetic" />
+  <component name="RunManager" selected="Application.LittleSumTest">
+    <configuration name="BucketSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.sorts.BucketSortTest" />
+      <module name="algorithms-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="com.storm.algorithms.exercise.sorts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day1.LeetCode3" />
-      <module name="storm-arithmetic" />
+    <configuration name="LittleSumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.sorts.LittleSumTest" />
+      <module name="algorithms-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day1.*" />
+          <option name="PATTERN" value="com.storm.algorithms.exercise.sorts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day1.MergeSort" />
-      <module name="storm-arithmetic" />
+    <configuration name="MergeSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.sorts.MergeSortTest" />
+      <module name="algorithms-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day1.*" />
+          <option name="PATTERN" value="com.storm.algorithms.exercise.sorts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,12 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="d" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.storm.shardingsphere.entity.d" />
-      <module name="Boot1" />
+    <configuration name="QueryOneOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.query.QueryOneOdd" />
+      <module name="algorithms-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.storm.shardingsphere.entity.*" />
+          <option name="PATTERN" value="com.storm.algorithms.exercise.query.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,12 +212,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="e" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.storm.shardingsphere.entity.e" />
-      <module name="Boot1" />
+    <configuration name="QueryTwoOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.query.QueryTwoOdd" />
+      <module name="algorithms-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.storm.shardingsphere.entity.*" />
+          <option name="PATTERN" value="com.storm.algorithms.exercise.query.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,11 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.Demo1" />
-        <item itemvalue="Application.LeetCode3" />
-        <item itemvalue="Application.e" />
-        <item itemvalue="Application.d" />
+        <item itemvalue="Application.LittleSumTest" />
+        <item itemvalue="Application.BucketSortTest" />
+        <item itemvalue="Application.QueryTwoOdd" />
+        <item itemvalue="Application.QueryOneOdd" />
+        <item itemvalue="Application.MergeSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -389,7 +378,7 @@
       <workItem from="1759970014674" duration="24000" />
       <workItem from="1759977152739" duration="1331000" />
       <workItem from="1759999567364" duration="3942000" />
-      <workItem from="1760320754568" duration="1777000" />
+      <workItem from="1760320754568" duration="14971000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <option name="closed" value="true" />
@@ -407,7 +396,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726793200324</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="123">
+      <option name="closed" value="true" />
+      <created>1760322630650</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1760322630650</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,6 +428,11 @@
           <url>file://$PROJECT_DIR$/Boot3/src/main/java/com/storm/boot3/lock/Demno1.java</url>
           <line>19</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/LittleSumTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
