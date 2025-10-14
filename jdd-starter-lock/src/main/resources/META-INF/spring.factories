@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.jdd.integration.lock.configuration.GlobalLockAutoConfiguration
