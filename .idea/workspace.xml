@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ec4ebcd-1e28-45c6-98fa-8fb1a50b31f8" name="Changes" comment="123">
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/AlgorithmsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/query/HalfQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/query/QueryOneOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/query/QueryTwoOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/BubbleSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/BucketSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/LittleSumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/MergeSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/SelectionSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/sorting/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/sorting/BucketSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/sorting/CountingSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/sorting/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/sorting/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/sorting/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/sorting/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/sorting/RadixSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/sorting/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/sorting/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/CenterSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/QuickSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/ReversedOrderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +66,7 @@
     "Application.BubbleSortTest.executor": "Run",
     "Application.BucketSort.executor": "Run",
     "Application.BucketSortTest.executor": "Debug",
+    "Application.CenterSortTest.executor": "Debug",
     "Application.ChatClient.executor": "Run",
     "Application.ChatServer.executor": "Debug",
     "Application.CountingSort.executor": "Run",
@@ -99,6 +82,8 @@
     "Application.MergeSortTest.executor": "Run",
     "Application.QueryOneOdd.executor": "Run",
     "Application.QueryTwoOdd.executor": "Run",
+    "Application.QuickSortTest.executor": "Debug",
+    "Application.ReversedOrderTest.executor": "Run",
     "Application.RunDemo.executor": "Run",
     "Application.SelectionSortTest.executor": "Debug",
     "Application.SerialNumberGenerator.executor": "Run",
@@ -143,6 +128,7 @@
       <recent name="com.storm.boot4" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.storm.algorithms.exercise.sorts" />
       <recent name="com.storm.boot3.lock" />
       <recent name="com.storm.boot4.aspect" />
       <recent name="com.storm.boot4.demo" />
@@ -159,9 +145,22 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LittleSumTest">
+  <component name="RunManager" selected="Application.QuickSortTest">
     <configuration name="BucketSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.sorts.BucketSortTest" />
+      <module name="algorithms-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.storm.algorithms.exercise.sorts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CenterSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.sorts.CenterSortTest" />
       <module name="algorithms-demo" />
       <extension name="coverage">
         <pattern>
@@ -186,8 +185,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.sorts.MergeSortTest" />
+    <configuration name="QuickSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.sorts.QuickSortTest" />
       <module name="algorithms-demo" />
       <extension name="coverage">
         <pattern>
@@ -199,25 +198,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryOneOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.query.QueryOneOdd" />
+    <configuration name="ReversedOrderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.sorts.ReversedOrderTest" />
       <module name="algorithms-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.storm.algorithms.exercise.query.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueryTwoOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.query.QueryTwoOdd" />
-      <module name="algorithms-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.storm.algorithms.exercise.query.*" />
+          <option name="PATTERN" value="com.storm.algorithms.exercise.sorts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSortTest" />
+        <item itemvalue="Application.CenterSortTest" />
+        <item itemvalue="Application.ReversedOrderTest" />
         <item itemvalue="Application.LittleSumTest" />
         <item itemvalue="Application.BucketSortTest" />
-        <item itemvalue="Application.QueryTwoOdd" />
-        <item itemvalue="Application.QueryOneOdd" />
-        <item itemvalue="Application.MergeSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +364,7 @@
       <workItem from="1759970014674" duration="24000" />
       <workItem from="1759977152739" duration="1331000" />
       <workItem from="1759999567364" duration="3942000" />
-      <workItem from="1760320754568" duration="14971000" />
+      <workItem from="1760320754568" duration="29287000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <option name="closed" value="true" />
@@ -404,7 +390,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760322630650</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="123">
+      <option name="closed" value="true" />
+      <created>1760402284426</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760402284426</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,6 +427,11 @@
           <url>file://$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/LittleSumTest.java</url>
           <line>32</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/QuickSortTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
