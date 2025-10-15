@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ec4ebcd-1e28-45c6-98fa-8fb1a50b31f8" name="Changes" comment="123">
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/test/PerformanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/util/IdChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms-demo/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0ec4ebcd-1e28-45c6-98fa-8fb1a50b31f8" name="Changes" comment="123" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,6 +142,17 @@
         <option value="QuarkusRunConfigurationType" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="AlgorithmsApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.AlgorithmsApplication">
@@ -358,7 +362,7 @@
       <workItem from="1759999567364" duration="3942000" />
       <workItem from="1760320754568" duration="29645000" />
       <workItem from="1760489613958" duration="594000" />
-      <workItem from="1760495059700" duration="421000" />
+      <workItem from="1760495059700" duration="2311000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <option name="closed" value="true" />
@@ -400,7 +404,23 @@
       <option name="project" value="LOCAL" />
       <updated>1760432965220</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="123">
+      <option name="closed" value="true" />
+      <created>1760495513602</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760495513602</updated>
+    </task>
+    <task id="LOCAL-00007" summary="123">
+      <option name="closed" value="true" />
+      <created>1760495534440</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1760495534440</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
