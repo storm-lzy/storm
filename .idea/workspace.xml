@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ec4ebcd-1e28-45c6-98fa-8fb1a50b31f8" name="Changes" comment="123">
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/CenterSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/QuickSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/ReversedOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/test/PerformanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/util/IdChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms-demo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +82,7 @@
     "Application.LittleSumTest.executor": "Debug",
     "Application.MergeSort.executor": "Run",
     "Application.MergeSortTest.executor": "Run",
+    "Application.PerformanceTest.executor": "Run",
     "Application.QueryOneOdd.executor": "Run",
     "Application.QueryTwoOdd.executor": "Run",
     "Application.QuickSortTest.executor": "Debug",
@@ -102,14 +105,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.AlgorithmsApplication.executor": "Debug",
+    "Spring Boot.AlgorithmsApplication.executor": "Run",
     "Spring Boot.Boot3Application.executor": "Debug",
     "Spring Boot.Boot4Application.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/work/space/DTS数据订阅/dts-server-master",
+    "last_opened_file_path": "D:/work/space/code",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -124,6 +127,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\space\code" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.storm.boot4" />
     </key>
@@ -145,20 +151,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickSortTest">
-    <configuration name="BucketSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.sorts.BucketSortTest" />
-      <module name="algorithms-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.storm.algorithms.exercise.sorts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.AlgorithmsApplication">
     <configuration name="CenterSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.sorts.CenterSortTest" />
       <module name="algorithms-demo" />
@@ -178,6 +171,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.storm.algorithms.exercise.sorts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PerformanceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.test.PerformanceTest" />
+      <module name="algorithms-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.storm.algorithms.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,27 +224,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boot3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="Boot3" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.storm.boot3.Boot3Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Boot4Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="Boot4" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.storm.boot4.Boot4Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PerformanceTest" />
         <item itemvalue="Application.QuickSortTest" />
         <item itemvalue="Application.CenterSortTest" />
         <item itemvalue="Application.ReversedOrderTest" />
         <item itemvalue="Application.LittleSumTest" />
-        <item itemvalue="Application.BucketSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +356,9 @@
       <workItem from="1759970014674" duration="24000" />
       <workItem from="1759977152739" duration="1331000" />
       <workItem from="1759999567364" duration="3942000" />
-      <workItem from="1760320754568" duration="29287000" />
+      <workItem from="1760320754568" duration="29645000" />
+      <workItem from="1760489613958" duration="594000" />
+      <workItem from="1760495059700" duration="421000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <option name="closed" value="true" />
@@ -398,7 +392,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760402284426</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="123">
+      <option name="closed" value="true" />
+      <created>1760432965220</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760432965220</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

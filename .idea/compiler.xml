@@ -7,20 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="storm-spring" />
-        <module name="Boot4" />
-        <module name="storm-im-certer" />
-        <module name="Boot2" />
-        <module name="alibaba-dts-starter" />
-        <module name="Boot3" />
-        <module name="Boot1" />
-        <module name="lock" />
         <module name="storm-rabbit-client" />
         <module name="storm-arithmetic" />
         <module name="algorithms-demo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="alibaba-dts-starter" target="1.8" />
+      <module name="Boot1" target="1.8" />
+      <module name="Boot2" target="1.8" />
+      <module name="Boot3" target="17" />
+      <module name="Boot4" target="1.8" />
+      <module name="lock" target="1.8" />
+      <module name="storm-im-certer" target="1.8" />
+      <module name="storm-spring" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
