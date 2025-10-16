@@ -19,30 +19,31 @@ public class QuickSortTest {
 
 
     public static void quickV1(int[] arr, int left, int right) {
-        if (left < 0 || right > arr.length - 1) {
+        if (left >= right) {
             return;
         }
 
-        int num = arr[right];
-        int cur = left;
+        int pivotIndex = partition(arr,left,right);
 
-        while (cur <= right) {
-            if (arr[cur] < num) {
-                swap(arr, cur, left++);
-                cur++;
-            } else if (arr[cur] > num) {
-                swap(arr, cur, right--);
-                cur++;
-            } else {
-                cur++;
+        quickV1(arr,left,pivotIndex - 1);
+        quickV1(arr,pivotIndex + 1,right);
+
+    }
+
+
+    public static int partition(int[] arr,int left,int right){
+
+        int pivot = arr[right];
+        int i = left;
+
+        for (int j = left; j < right; j++) {
+            if(arr[j] < pivot){
+                swap(arr,i++,j);
             }
         }
-        System.out.println("--");
 
-        quickV1(arr,0,left - 1);
-        quickV1(arr,left + 1,right);
-
-        Arrays.sort(arr);
+        swap(arr,i,right);
+        return i;
 
     }
 

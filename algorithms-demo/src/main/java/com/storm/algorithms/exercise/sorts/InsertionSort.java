@@ -10,11 +10,12 @@ import java.util.Arrays;
 public class InsertionSort {
 
     public static void main(String[] args) {
-        int[] arr = {8,1,9,6,3,8,2,1};
+//        int[] arr = {8,1,9,6,3,8,2,1};
+//
+//        sort(arr);
+//
+//        System.out.println(Arrays.toString(arr));
 
-        sort(arr);
-
-        System.out.println(Arrays.toString(arr));
 
     }
 
@@ -37,13 +38,6 @@ public class InsertionSort {
 
         }
 
-    }
-
-
-    public static void swap(int[] arr,int source,int target){
-        int temp = arr[source];
-        arr[source] = arr[target];
-        arr[target] = temp;
     }
 
 }

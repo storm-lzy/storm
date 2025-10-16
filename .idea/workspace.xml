@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ec4ebcd-1e28-45c6-98fa-8fb1a50b31f8" name="Changes" comment="123" />
+    <list default="true" id="0ec4ebcd-1e28-45c6-98fa-8fb1a50b31f8" name="Changes" comment="123">
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/BuildLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/DeleteNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/HeadInsertNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/LinkLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/QueryVarNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/ReverseDoubleListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/ReverseListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/TailInsertNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/TraverseNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/node/DoubleListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/node/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/QuickSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/QuickSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/test/PerformanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/test/PerformanceTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,28 +77,37 @@
     "Application.BubbleSortTest.executor": "Run",
     "Application.BucketSort.executor": "Run",
     "Application.BucketSortTest.executor": "Debug",
+    "Application.BuildLink.executor": "Run",
     "Application.CenterSortTest.executor": "Debug",
     "Application.ChatClient.executor": "Run",
     "Application.ChatServer.executor": "Debug",
     "Application.CountingSort.executor": "Run",
+    "Application.DeleteNode.executor": "Run",
     "Application.Demno1.executor": "Run",
     "Application.Demo1.executor": "Debug",
     "Application.Demo2.executor": "Run",
     "Application.Demo3.executor": "Run",
     "Application.HalfQuery.executor": "Debug",
+    "Application.HeadInsertNode.executor": "Run",
+    "Application.HeapSort.executor": "Debug",
     "Application.InsertionSort.executor": "Debug",
     "Application.LeetCode3.executor": "Debug",
+    "Application.LinkLength.executor": "Run",
     "Application.LittleSumTest.executor": "Debug",
     "Application.MergeSort.executor": "Run",
     "Application.MergeSortTest.executor": "Run",
     "Application.PerformanceTest.executor": "Run",
     "Application.QueryOneOdd.executor": "Run",
     "Application.QueryTwoOdd.executor": "Run",
+    "Application.QueryVarNode.executor": "Run",
     "Application.QuickSortTest.executor": "Debug",
+    "Application.ReverseDoubleListNode.executor": "Run",
+    "Application.ReverseListNode.executor": "Debug",
     "Application.ReversedOrderTest.executor": "Run",
     "Application.RunDemo.executor": "Run",
     "Application.SelectionSortTest.executor": "Debug",
     "Application.SerialNumberGenerator.executor": "Run",
+    "Application.TailInsertNode.executor": "Debug",
     "Application.com.storm.boot3.demo.Demo1.executor": "Run",
     "Application.d.executor": "Run",
     "Application.e.executor": "Run",
@@ -155,13 +180,13 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AlgorithmsApplication">
-    <configuration name="CenterSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.sorts.CenterSortTest" />
+  <component name="RunManager" selected="Application.ReverseDoubleListNode">
+    <configuration name="DeleteNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.link.DeleteNode" />
       <module name="algorithms-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.storm.algorithms.exercise.sorts.*" />
+          <option name="PATTERN" value="com.storm.algorithms.exercise.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LittleSumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.sorts.LittleSumTest" />
+    <configuration name="HeadInsertNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.link.HeadInsertNode" />
       <module name="algorithms-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.storm.algorithms.exercise.sorts.*" />
+          <option name="PATTERN" value="com.storm.algorithms.exercise.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,12 +207,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerformanceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.test.PerformanceTest" />
+    <configuration name="ReverseDoubleListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.link.ReverseDoubleListNode" />
       <module name="algorithms-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.storm.algorithms.test.*" />
+          <option name="PATTERN" value="com.storm.algorithms.exercise.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,12 +220,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.sorts.QuickSortTest" />
+    <configuration name="ReverseListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.link.ReverseListNode" />
       <module name="algorithms-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.storm.algorithms.exercise.sorts.*" />
+          <option name="PATTERN" value="com.storm.algorithms.exercise.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,12 +233,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReversedOrderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.sorts.ReversedOrderTest" />
+    <configuration name="TailInsertNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.link.TailInsertNode" />
       <module name="algorithms-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.storm.algorithms.exercise.sorts.*" />
+          <option name="PATTERN" value="com.storm.algorithms.exercise.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PerformanceTest" />
-        <item itemvalue="Application.QuickSortTest" />
-        <item itemvalue="Application.CenterSortTest" />
-        <item itemvalue="Application.ReversedOrderTest" />
-        <item itemvalue="Application.LittleSumTest" />
+        <item itemvalue="Application.ReverseDoubleListNode" />
+        <item itemvalue="Application.ReverseListNode" />
+        <item itemvalue="Application.DeleteNode" />
+        <item itemvalue="Application.TailInsertNode" />
+        <item itemvalue="Application.HeadInsertNode" />
       </list>
     </recent_temporary>
   </component>
@@ -362,7 +387,7 @@
       <workItem from="1759999567364" duration="3942000" />
       <workItem from="1760320754568" duration="29645000" />
       <workItem from="1760489613958" duration="594000" />
-      <workItem from="1760495059700" duration="2311000" />
+      <workItem from="1760495059700" duration="20809000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <option name="closed" value="true" />
@@ -420,7 +445,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760495534440</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="123">
+      <option name="closed" value="true" />
+      <created>1760521364131</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1760521364131</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,11 +482,6 @@
           <url>file://$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/LittleSumTest.java</url>
           <line>32</line>
           <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/sorts/QuickSortTest.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
