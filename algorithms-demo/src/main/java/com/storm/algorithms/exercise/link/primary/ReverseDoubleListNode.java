@@ -1,7 +1,6 @@
-package com.storm.algorithms.exercise.link;
+package com.storm.algorithms.exercise.link.primary;
 
 import com.storm.algorithms.exercise.link.node.DoubleListNode;
-import com.storm.algorithms.exercise.link.node.ListNode;
 
 /**
  *
@@ -32,11 +31,17 @@ public class ReverseDoubleListNode {
         DoubleListNode cur = head;
         DoubleListNode prev = null;
 
-        while (cur.next != null){
+        while (cur != null){
+
+            DoubleListNode next = cur.next;
+            cur.next = prev;
+            cur.prev = next;
+            prev = cur;
+            cur = next;
 
 
         }
 
-        return cur;
+        return prev;
     }
 }

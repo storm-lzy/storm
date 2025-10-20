@@ -1,0 +1,71 @@
+package com.storm.algorithms.exercise.link.primary;
+
+import com.storm.algorithms.exercise.link.node.ListNode;
+
+/**
+ *
+ * @author 李治毅
+ * @date 2025/10/16
+ */
+public class TailInsertNode {
+
+    public static void main(String[] args) {
+
+        int[] arr = {8, 1, 9, 6, 3, 8, 2, 1};
+
+        ListNode listNode = BuildLink.buildListNode(arr);
+
+        int val = 7;
+
+        System.out.println("before：" + listNode);
+
+        ListNode newHead = process(val, listNode);
+
+        System.out.println("after：" + newHead);
+
+    }
+
+    public static ListNode process(int val, ListNode head) {
+
+        ListNode last = head;
+        ListNode next = head;
+
+        while (next != null) {
+            last = next;
+            next = next.next;
+        }
+
+        ListNode listNode = new ListNode(val);
+
+        if(null == last){
+            return listNode;
+        }
+
+        last.next = listNode;
+
+        return head;
+
+    }
+
+
+    public static ListNode process(ListNode val, ListNode head) {
+
+        ListNode last = head;
+        ListNode next = head;
+
+        while (next != null) {
+            last = next;
+            next = next.next;
+        }
+
+        if(null == last){
+            return val;
+        }
+
+        last.next = val;
+
+        return head;
+
+    }
+
+}

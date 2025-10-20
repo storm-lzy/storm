@@ -1,4 +1,4 @@
-package com.storm.algorithms.exercise.link;
+package com.storm.algorithms.exercise.link.primary;
 
 import com.storm.algorithms.exercise.link.node.ListNode;
 

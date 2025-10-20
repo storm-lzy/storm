@@ -1,4 +1,4 @@
-package com.storm.algorithms.exercise.link;
+package com.storm.algorithms.exercise.link.primary;
 
 import com.storm.algorithms.exercise.link.node.ListNode;
 
@@ -7,7 +7,7 @@ import com.storm.algorithms.exercise.link.node.ListNode;
  * @author 李治毅
  * @date 2025/10/16
  */
-public class TailInsertNode {
+public class HeadInsertNode {
 
     public static void main(String[] args) {
 
@@ -22,29 +22,14 @@ public class TailInsertNode {
         ListNode newHead = process(val, listNode);
 
         System.out.println("after：" + newHead);
-
     }
 
     public static ListNode process(int val, ListNode head) {
 
-        ListNode last = head;
-        ListNode next = head;
+        ListNode newHead = new ListNode(val);
 
-        while (next != null) {
-            last = next;
-            next = next.next;
-        }
+        newHead.next = head;
 
-        ListNode listNode = new ListNode(val);
-
-        if(null == last){
-            return listNode;
-        }
-
-        last.next = listNode;
-
-        return head;
-
+        return newHead;
     }
-
 }
