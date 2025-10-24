@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ec4ebcd-1e28-45c6-98fa-8fb1a50b31f8" name="Changes" comment="123">
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/middleRank/DeleteIndexNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/middleRank/ExistsCycleNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/middleRank/MergeListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/middleRank/QueryCentreNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/advanced/GroupReverseNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/middleRank/PalindromeListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/middleRank/SumListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/BuildLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/primary/BuildLink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/DeleteNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/primary/DeleteNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/HeadInsertNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/primary/HeadInsertNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/LinkLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/primary/LinkLength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/QueryVarNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/primary/QueryVarNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/ReverseDoubleListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/primary/ReverseDoubleListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/ReverseListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/primary/ReverseListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/TailInsertNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/primary/TailInsertNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/TraverseNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/primary/TraverseNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/middleRank/DeleteIndexNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/middleRank/DeleteIndexNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +79,7 @@
     "Application.Demo2.executor": "Run",
     "Application.Demo3.executor": "Run",
     "Application.ExistsCycleNode.executor": "Debug",
+    "Application.GroupReverseNode.executor": "Debug",
     "Application.HalfQuery.executor": "Debug",
     "Application.HeadInsertNode.executor": "Run",
     "Application.HeapSort.executor": "Debug",
@@ -98,6 +90,7 @@
     "Application.MergeListNode.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.MergeSortTest.executor": "Run",
+    "Application.PalindromeListNode.executor": "Run",
     "Application.PerformanceTest.executor": "Run",
     "Application.QueryCentreNode.executor": "Run",
     "Application.QueryOneOdd.executor": "Run",
@@ -110,6 +103,7 @@
     "Application.RunDemo.executor": "Run",
     "Application.SelectionSortTest.executor": "Debug",
     "Application.SerialNumberGenerator.executor": "Run",
+    "Application.SumListNode.executor": "Run",
     "Application.TailInsertNode.executor": "Debug",
     "Application.com.storm.boot3.demo.Demo1.executor": "Run",
     "Application.d.executor": "Run",
@@ -143,7 +137,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.25172412",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -183,7 +177,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeleteIndexNode">
+  <component name="RunManager" selected="Application.GroupReverseNode">
     <configuration name="DeleteIndexNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.link.middleRank.DeleteIndexNode" />
       <module name="algorithms-demo" />
@@ -210,8 +204,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.link.middleRank.MergeListNode" />
+    <configuration name="GroupReverseNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.link.advanced.GroupReverseNode" />
+      <module name="algorithms-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.storm.algorithms.exercise.link.advanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.link.middleRank.PalindromeListNode" />
       <module name="algorithms-demo" />
       <extension name="coverage">
         <pattern>
@@ -223,25 +230,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryCentreNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.link.middleRank.QueryCentreNode" />
+    <configuration name="SumListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.link.middleRank.SumListNode" />
       <module name="algorithms-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.storm.algorithms.exercise.link.middleRank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseDoubleListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.storm.algorithms.exercise.link.primary.ReverseDoubleListNode" />
-      <module name="algorithms-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.storm.algorithms.exercise.link.primary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GroupReverseNode" />
+        <item itemvalue="Application.SumListNode" />
+        <item itemvalue="Application.PalindromeListNode" />
         <item itemvalue="Application.DeleteIndexNode" />
         <item itemvalue="Application.ExistsCycleNode" />
-        <item itemvalue="Application.QueryCentreNode" />
-        <item itemvalue="Application.MergeListNode" />
-        <item itemvalue="Application.ReverseDoubleListNode" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +385,7 @@
       <workItem from="1760320754568" duration="29645000" />
       <workItem from="1760489613958" duration="594000" />
       <workItem from="1760495059700" duration="35231000" />
-      <workItem from="1760945846141" duration="3242000" />
+      <workItem from="1760945846141" duration="28822000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <option name="closed" value="true" />
@@ -465,7 +459,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760608260724</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="123">
+      <option name="closed" value="true" />
+      <created>1760952656368</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1760952656368</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,6 +506,11 @@
           <url>file://$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/middleRank/ExistsCycleNode.java</url>
           <line>18</line>
           <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithms-demo/src/main/java/com/storm/algorithms/exercise/link/middleRank/PalindromeListNode.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="81" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
